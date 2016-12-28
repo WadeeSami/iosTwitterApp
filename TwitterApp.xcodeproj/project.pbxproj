@@ -15,6 +15,7 @@
 		58F6E1BB1E11389E00D4EE76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58F6E1B91E11389E00D4EE76 /* LaunchScreen.storyboard */; };
 		58F6E1C61E11389E00D4EE76 /* TwitterAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F6E1C51E11389E00D4EE76 /* TwitterAppTests.m */; };
 		58F6E1D11E11389E00D4EE76 /* TwitterAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F6E1D01E11389E00D4EE76 /* TwitterAppUITests.m */; };
+		58F6E1DF1E11A19600D4EE76 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F6E1DE1E11A19600D4EE76 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		58F6E1CC1E11389E00D4EE76 /* TwitterAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58F6E1D01E11389E00D4EE76 /* TwitterAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwitterAppUITests.m; sourceTree = "<group>"; };
 		58F6E1D21E11389E00D4EE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58F6E1DE1E11A19600D4EE76 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58F6E1DF1E11A19600D4EE76 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		58F6E19F1E11389E00D4EE76 = {
 			isa = PBXGroup;
 			children = (
+				58F6E1DE1E11A19600D4EE76 /* Social.framework */,
 				58F6E1AA1E11389E00D4EE76 /* TwitterApp */,
 				58F6E1C41E11389E00D4EE76 /* TwitterAppTests */,
 				58F6E1CF1E11389E00D4EE76 /* TwitterAppUITests */,
